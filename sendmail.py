@@ -34,8 +34,8 @@ body = info
 
 message.set_content(body)
 
-logggin = "" #visq152@gmail.com
-password = "" #visq152@gmail.com
+logggin = "visq152@gmail.com" 
+password = "visqMarcel2009" 
 mail_server = smtplib.SMTP_SSL('smtp.gmail.com')
 mail_server.set_debuglevel(1)
 mail_server.login(logggin,password)
